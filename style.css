@@ -1,0 +1,178 @@
+
+*{
+    margin: 0; 
+    padding: 0;
+     box-sizing: border-box; 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-links a:hover{
+    color: aqua;
+    text-shadow: 0 0 10px aqua,
+    0 0 20px aqua;
+    font-size: 20px;
+    transition: ease-in-out;
+
+}
+
+ .btn button{
+	padding: 8px 20px;
+    background-color: transparent;
+	border: 1px solid #FFBD39;
+	border-radius: 3px;
+	font-size: 13px;
+	color: #FFBD39;
+   
+}
+ .btn button a{
+	color: #FFBD39;
+	border-bottom: none !important;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* hero section */
+.hero-section{
+  height: 100%;
+  width: 100%;
+
+}
+.background-video-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.8.3;
+}
+#background-video {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+/* .about-page{ */
+    /* height: 100vh; */
+    /* width: 100vw; */
+/* } */
+
+.aboutme{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 1, 1, 0.5);
+  
+
+        
+    }
+    .aboutme .about1{
+        font-size: 15px;
+        color: #FFBD39;    
+       
+       
+    }
+    .aboutme .about2, .about3{
+        font-size: 30px;
+        color: white;
+        font-weight: 500;
+        text-shadow: 1px 1px 2px white;
+ 
+     
+/*          */
+    } 
+    .aboutme .about3{
+        color:#8892B0;
+
+       
+    }
+    .aboutme .about4{
+        width: 700px;
+        margin-top: 10px;
+        line-height: 22px;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+       
+    
+    }
+    
+    .aboutme button{
+        margin-top: 15px;
+        padding: 10px 35px;
+        border: 1px solid #FFBD39;
+        border-radius: 4px;
+        font-size: 15px;
+        width: 200px;
+        background-color: transparent;
+        /* box-shadow: 0 0 10px white, */
+        /* 0 0 20px white; */
+ 
+    }
+    .aboutme button a{
+        text-decoration: none;
+        color: #FFBD39;
+        
+    }
